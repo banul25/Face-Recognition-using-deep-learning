@@ -19,3 +19,38 @@ The main objectives of this project are:
 4)Compare the performance of all models.
 
 5)Evaluate models using accuracy, precision, recall, F1-score, and confusion matrix
+                                                                                                                                                                                                                                                                                                                                                                                    
+# Analysis
+ # Custom CNN
+*Lowest accuracy.
+
+*Useful as a baseline model.
+
+*Simpler architecture but weaker feature extraction.
+
+# MobileNetV2
+
+*Highest precision.
+
+*Lightweight and fast.
+
+*Excellent for deployment on low-resource devices.
+
+*Slightly lower F1-score than Custom CNN due to lower recall.
+
+# EfficientNetB0
+
+*Highest accuracy (60.30%).
+
+*Highest recall (45.81%).
+
+*Highest F1-score (0.5670).
+
+*Best balance between precision and recall.
+
+*Best overall emotion recognition performance.
+
+# Best Model
+Based on standard evaluation metrics, EfficientNetB0 is the best model because it achieves:
+
+Highest Accuracy: 60.30%                                                                                                         
