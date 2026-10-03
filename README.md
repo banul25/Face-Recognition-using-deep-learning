@@ -53,4 +53,9 @@ The main objectives of this project are:
 # Best Model
 Based on standard evaluation metrics, EfficientNetB0 is the best model because it achieves:
 
-Highest Accuracy: 60.30%                                                                                                         
+Highest Accuracy: 60.30%  
+Highest Recall: 45.81%
+
+Highest F1-Score: 0.5670
+
+The F1-score is especially important in your emotion dataset because the classes are imbalanced (e.g., disgust has far fewer samples than happy). A higher F1-score indicates better overall classification performance across classes.
