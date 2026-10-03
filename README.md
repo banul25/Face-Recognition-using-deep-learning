@@ -59,3 +59,5 @@ Highest Recall: 45.81%
 Highest F1-Score: 0.5670
 
 The F1-score is especially important in your emotion dataset because the classes are imbalanced (e.g., disgust has far fewer samples than happy). A higher F1-score indicates better overall classification performance across classes.
+# Report Conclusion
+Three deep learning models were evaluated for facial emotion recognition: a Custom CNN, MobileNetV2, and EfficientNetB0. Experimental results showed that EfficientNetB0 achieved the best overall performance with an accuracy of 60.30%, precision of 74.41%, recall of 45.81%, and F1-score of 0.5670. Therefore, EfficientNetB0 was selected as the final model for deployment in the real-time emotion recognition system. The trained model was saved and integrated with OpenCV-based face detection to classify emotions from live video streams in real time.
